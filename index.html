@@ -12,15 +12,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <header class="site-header">
     <a class="logo" href="#top">Valentine Cheluchi</a>
-    <nav>
-      <a href="#work">Work</a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
       <a href="#approach">Approach</a>
+      <a href="#work">Work</a>
       <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
       <a class="nav-whatsapp" href="https://wa.me/2347081272964?text=Hi%20Valentine%2C%20I%20found%20your%20portfolio%20and%20I%27d%20like%20to%20discuss%20an%20AI%20project." target="_blank" rel="noopener">WhatsApp</a>
     </nav>
   </header>
@@ -232,6 +236,91 @@
       </div>
     </section>
 
+    <section class="section contact-section" id="contact">
+      <h2>Let's <span class="accent">Connect</span></h2>
+      <p class="section-lead section-lead-center">Ready to start your next AI project? Get in touch and let's discuss how we can ship something useful.</p>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+
+          <a class="contact-card" href="https://wa.me/2347081272964?text=Hi%20Valentine%2C%20I%20found%20your%20portfolio%20and%20I%27d%20like%20to%20discuss%20an%20AI%20project." target="_blank" rel="noopener">
+            <span class="contact-icon contact-icon-wa" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path fill="currentColor" d="M16.01 3C9.39 3 4 8.39 4 15.02c0 2.12.56 4.18 1.63 6L4 29l8.18-1.6a12 12 0 0 0 3.83.62h.01c6.62 0 12-5.39 12-12.01C28.01 8.39 22.63 3 16.01 3zm6.98 17.12c-.29.82-1.7 1.5-2.38 1.6-.61.08-1.38.12-2.23-.14-.51-.16-1.17-.38-2.02-.74-3.55-1.54-5.86-5.13-6.04-5.37-.17-.23-1.43-1.9-1.43-3.63s.9-2.57 1.22-2.92c.32-.35.7-.44.93-.44h.67c.22 0 .5-.08.78.6.29.7.98 2.4 1.07 2.57.08.17.14.38.03.6-.11.23-.17.38-.34.58-.17.2-.36.45-.51.6-.17.17-.35.35-.15.69.2.35.9 1.48 1.93 2.4 1.33 1.18 2.45 1.55 2.8 1.72.35.17.55.14.75-.09.2-.23.87-1.01 1.1-1.36.23-.35.46-.29.78-.17.32.11 2.05.97 2.4 1.14.35.17.58.26.67.4.08.14.08.82-.21 1.64z"/></svg>
+            </span>
+            <span>
+              <strong>WhatsApp</strong>
+              <small>Quick response guaranteed</small>
+              <em>Chat on WhatsApp</em>
+            </span>
+          </a>
+
+          <a class="contact-card" href="mailto:krixxvalle@gmail.com">
+            <span class="contact-icon contact-icon-mail" aria-hidden="true">✉</span>
+            <span>
+              <strong>Email</strong>
+              <small>Detailed project discussions</small>
+              <em>krixxvalle@gmail.com</em>
+            </span>
+          </a>
+
+          <a class="contact-card" href="https://www.upwork.com/freelancers/~01b156e64fabd8c954" target="_blank" rel="noopener">
+            <span class="contact-icon contact-icon-work" aria-hidden="true">↗</span>
+            <span>
+              <strong>Upwork</strong>
+              <small>Hire for freelance projects</small>
+              <em>View profile</em>
+            </span>
+          </a>
+
+          <div class="contact-meta">
+            <div>
+              <strong>Response time</strong>
+              <span>Within 24 hours</span>
+            </div>
+            <div>
+              <strong>Focus</strong>
+              <span>AI agents &amp; backends</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <h3>Quick project request</h3>
+          <div class="form-row">
+            <label>
+              First name
+              <input type="text" name="firstName" placeholder="John" required />
+            </label>
+            <label>
+              Last name
+              <input type="text" name="lastName" placeholder="Doe" required />
+            </label>
+          </div>
+          <label>
+            Email address
+            <input type="email" name="email" placeholder="john@example.com" required />
+          </label>
+          <label>
+            Project type
+            <select name="projectType" required>
+              <option value="AI agent / automation">AI agent / automation</option>
+              <option value="SaaS backend / API">SaaS backend / API</option>
+              <option value="Mobile AI product">Mobile AI product</option>
+              <option value="ML inference / integration">ML inference / integration</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label>
+            Project details
+            <textarea name="details" rows="5" placeholder="Tell me about your project requirements..." required></textarea>
+          </label>
+          <button class="btn btn-brand" type="submit">Send via WhatsApp</button>
+          <p class="form-note">Prefer email? <a href="mailto:krixxvalle@gmail.com">krixxvalle@gmail.com</a></p>
+        </form>
+      </div>
+    </section>
+
     <section class="cta-band">
       <h2>Let's build practical AI software</h2>
       <p>Available for AI automation, SaaS backends, and agentic workflow projects.</p>
@@ -262,6 +351,22 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
+    var toggle = document.querySelector(".nav-toggle");
+    var nav = document.getElementById("site-nav");
+    function closeNav() {
+      document.body.classList.remove("nav-open");
+      if (toggle) toggle.setAttribute("aria-expanded", "false");
+    }
+    if (toggle && nav) {
+      toggle.addEventListener("click", function () {
+        var open = document.body.classList.toggle("nav-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      nav.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", closeNav);
+      });
+    }
+
     document.querySelectorAll(".card--clickable").forEach(function (card) {
       var open = function () {
         var href = card.getAttribute("data-href");
@@ -278,6 +383,21 @@
         }
       });
     });
+
+    var form = document.getElementById("contact-form");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = new FormData(form);
+        var message =
+          "Hi Valentine, I found your portfolio and I'd like to discuss a project.%0A%0A" +
+          "Name: " + encodeURIComponent((data.get("firstName") || "") + " " + (data.get("lastName") || "")) + "%0A" +
+          "Email: " + encodeURIComponent(data.get("email") || "") + "%0A" +
+          "Project type: " + encodeURIComponent(data.get("projectType") || "") + "%0A%0A" +
+          "Details:%0A" + encodeURIComponent(data.get("details") || "");
+        window.open("https://wa.me/2347081272964?text=" + message, "_blank", "noopener");
+      });
+    }
   </script>
 </body>
 </html>
