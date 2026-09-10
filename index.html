@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <header class="site-header">
@@ -74,115 +74,115 @@
 
     <section class="section section-dark" id="work">
       <h2>Selected AI engineering work</h2>
-      <p class="section-lead">Core work: AI agents, multimodal systems, SaaS APIs, production ML endpoints, and shipped products.</p>
+      <p class="section-lead">Core work: AI agents, multimodal systems, SaaS APIs, production ML endpoints, and shipped products. Click any card to open the project.</p>
       <div class="work-grid">
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://krixx.pythonanywhere.com/api/docs" tabindex="0" role="link" aria-label="Open AI SaaS Automation API">
           <img src="assets/img/ai.png" alt="" />
           <div class="card-body">
             <h3>AI SaaS Automation API</h3>
             <p>Production backend for AI SaaS workflows with Swagger docs, OCR endpoints, chatbot training flows, and AI service delivery APIs.</p>
             <div class="tags"><span>Python</span><span>Django REST</span><span>PostgreSQL</span><span>Docker</span></div>
             <div class="card-links">
-              <a href="https://krixx.pythonanywhere.com/api/docs" target="_blank" rel="noopener">Live API</a>
+              <a class="card-btn" href="https://krixx.pythonanywhere.com/api/docs" target="_blank" rel="noopener">Open Live API →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://docs.google.com/document/d/1hhx_GzDl_a3_pSjf0svf1ukannYmPG9TwTM0V9G6t4o/edit?usp=sharing" tabindex="0" role="link" aria-label="Open Hinata project details">
           <img src="assets/img/hinata.png" alt="" />
           <div class="card-body">
             <h3>Hinata — Local Multimodal AI Companion</h3>
             <p>Local-first multimodal companion: speech recognition, LLM orchestration, voice synthesis, avatar animation, and conversational memory on FastAPI.</p>
             <div class="tags"><span>FastAPI</span><span>STT/TTS</span><span>LLM Orchestration</span><span>VRM</span></div>
             <div class="card-links">
-              <a href="https://github.com/krixx646/hinata" target="_blank" rel="noopener">View on GitHub</a>
-              <a href="https://docs.google.com/document/d/1hhx_GzDl_a3_pSjf0svf1ukannYmPG9TwTM0V9G6t4o/edit?usp=sharing" target="_blank" rel="noopener">Project Details</a>
+              <a class="card-btn" href="https://github.com/krixx646/hinata" target="_blank" rel="noopener">View on GitHub →</a>
+              <a class="card-btn" href="https://docs.google.com/document/d/1hhx_GzDl_a3_pSjf0svf1ukannYmPG9TwTM0V9G6t4o/edit?usp=sharing" target="_blank" rel="noopener">Project Details →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://github.com/krixx646/celiia_Flutter" tabindex="0" role="link" aria-label="Open CELIA on GitHub">
           <img src="assets/img/celia.png" alt="" />
           <div class="card-body">
             <h3>AI Fitness Assistant (CELIA)</h3>
             <p>Backend APIs for personalized plans, scheduling, CRM integration, lead capture, and multilingual support.</p>
             <div class="tags"><span>Django REST</span><span>PostgreSQL</span><span>Docker</span><span>AI</span></div>
             <div class="card-links">
-              <a href="https://github.com/krixx646/celiia_Flutter" target="_blank" rel="noopener">View on GitHub</a>
+              <a class="card-btn" href="https://github.com/krixx646/celiia_Flutter" target="_blank" rel="noopener">View on GitHub →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" tabindex="0" role="link" aria-label="Open Chelucaller docs">
           <img src="assets/img/chelucaller.png" alt="" />
           <div class="card-body">
             <h3>Chelucaller</h3>
             <p>AI real estate data ingestion — 5,000+ verified records/month, saving ~97% manual effort.</p>
             <div class="tags"><span>Python</span><span>FastAPI</span><span>Data Processing</span><span>Automation</span></div>
             <div class="card-links">
-              <a href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" target="_blank" rel="noopener">View Docs</a>
+              <a class="card-btn" href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" target="_blank" rel="noopener">View Docs →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" tabindex="0" role="link" aria-label="Open Dog-Daily docs">
           <img src="assets/img/ai.png" alt="" />
           <div class="card-body">
             <h3>Dog-Daily Assistant</h3>
             <p>Production chatbot backend reducing support costs by $3,405/month — multilingual NLP, lead qualification, support workflows.</p>
             <div class="tags"><span>Django</span><span>NLP</span><span>CRM</span><span>Automation</span></div>
             <div class="card-links">
-              <a href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" target="_blank" rel="noopener">View Docs</a>
+              <a class="card-btn" href="https://docs.google.com/document/d/1LZnRvHzJYqpEI8Nm9Y0l1novHbgv6SoXzaE13wqJac4/edit?tab=t.0" target="_blank" rel="noopener">View Docs →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://github.com/krixx646/Pigent_forex" tabindex="0" role="link" aria-label="Open FX Signal Inference API on GitHub">
           <img src="assets/img/fx.png" alt="" />
           <div class="card-body">
             <h3>FX Signal Inference API</h3>
             <p>Production ML inference service: FastAPI endpoints, automated delivery pipelines, and real-time market data processing.</p>
             <div class="tags"><span>FastAPI</span><span>ML Inference</span><span>Real-time</span><span>APIs</span></div>
             <div class="card-links">
-              <a href="https://github.com/krixx646/Pigent_forex" target="_blank" rel="noopener">View on GitHub</a>
+              <a class="card-btn" href="https://github.com/krixx646/Pigent_forex" target="_blank" rel="noopener">View on GitHub →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://github.com/krixx646/Pigent_forex_pro" tabindex="0" role="link" aria-label="Open Pigent Trading Pro on GitHub">
           <img src="assets/img/trading.png" alt="" />
           <div class="card-body">
             <h3>Pigent Trading Pro</h3>
             <p>Three collaborating ML models in production (up to 75% analysis accuracy) via FastAPI inference endpoints with monitoring for live workflows.</p>
             <div class="tags"><span>FastAPI</span><span>ML Models</span><span>Inference</span><span>Monitoring</span></div>
             <div class="card-links">
-              <a href="https://github.com/krixx646/Pigent_forex_pro" target="_blank" rel="noopener">View on GitHub</a>
+              <a class="card-btn" href="https://github.com/krixx646/Pigent_forex_pro" target="_blank" rel="noopener">View on GitHub →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://krixxvalentine.gumroad.com/l/fvmnof" tabindex="0" role="link" aria-label="Open AI-Assisted Software Engineering Masterclass">
           <img src="assets/img/vibe-coding-course.png" alt="" />
           <div class="card-body">
             <h3>AI-Assisted Software Engineering Masterclass</h3>
             <p>Practical course on using AI tools inside a real build process — architecture, debugging, review, and deployment included.</p>
             <div class="tags"><span>AI-Assisted Eng</span><span>Full Stack</span><span>Debugging</span><span>Deployment</span></div>
             <div class="card-links">
-              <a href="https://krixxvalentine.gumroad.com/l/fvmnof" target="_blank" rel="noopener">Buy in USD</a>
-              <a href="https://selar.com/777323gtn8" target="_blank" rel="noopener">Buy in Naira</a>
+              <a class="card-btn" href="https://krixxvalentine.gumroad.com/l/fvmnof" target="_blank" rel="noopener">Buy in USD →</a>
+              <a class="card-btn" href="https://selar.com/777323gtn8" target="_blank" rel="noopener">Buy in Naira →</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card card--clickable" data-href="https://play.google.com/store/apps/details?id=com.chelumore.xpenze&pcampaignid=web_share" tabindex="0" role="link" aria-label="Open Xpenze on Google Play">
           <img src="assets/img/xpenze-launch.png" alt="" />
           <div class="card-body">
             <h3>Xpenze — AI Budget Tracker</h3>
             <p>AI-assisted budget tracker for clean expense entry and smarter money planning. Live on Google Play.</p>
             <div class="tags"><span>Android</span><span>Budgeting</span><span>AI Insights</span><span>Live</span></div>
             <div class="card-links">
-              <a href="https://play.google.com/store/apps/details?id=com.chelumore.xpenze&pcampaignid=web_share" target="_blank" rel="noopener">Get on Play Store</a>
+              <a class="card-btn" href="https://play.google.com/store/apps/details?id=com.chelumore.xpenze&pcampaignid=web_share" target="_blank" rel="noopener">Get on Play Store →</a>
             </div>
           </div>
         </article>
@@ -262,6 +262,23 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.querySelectorAll(".card--clickable").forEach(function (card) {
+      var open = function () {
+        var href = card.getAttribute("data-href");
+        if (href) window.open(href, "_blank", "noopener");
+      };
+      card.addEventListener("click", function (e) {
+        if (e.target.closest("a")) return;
+        open();
+      });
+      card.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
+      });
+    });
   </script>
 </body>
 </html>
