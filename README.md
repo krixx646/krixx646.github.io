@@ -31,6 +31,6 @@ git push -u origin main
 
 Buttons use the phone click-to-chat link (usernames are not reliably linkable yet):
 
-`https://wa.me/2349019927796`
+`https://wa.me/2347081272964`
 
 If your WhatsApp number changes, update every `wa.me` URL in `index.html`.
