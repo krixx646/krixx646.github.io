@@ -339,6 +339,9 @@ a.card-btn:hover,
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .strip-grid img {
   height: 110px;
@@ -352,13 +355,16 @@ a.card-btn:hover,
   font-size: 1rem;
 }
 .strip-grid p {
-  margin: 0 0 0.6rem;
+  margin: 0;
   color: var(--muted);
   font-size: 0.88rem;
+  flex: 1;
 }
 .strip-grid a {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
+  margin-top: 0.85rem;
   font-weight: 700;
   font-size: 0.88rem;
   text-decoration: none;
